@@ -37,7 +37,7 @@ const Chatbot = () => {
   };
 
   return (
-    <div>
+    <div className="">
       <div>
         <p>Q: {inputData}</p>
         <p>A: {responseData || "Ask a question to see the response!"}</p>
