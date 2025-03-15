@@ -37,13 +37,13 @@ const Chatbot = () => {
   };
 
   return (
-    <div>
-      <div>
+    <div className="">
+      <div className="">
         <p>Q: {inputData}</p>
         <p>A: {responseData || "Ask a question to see the response!"}</p>
       </div>
 
-      <div>
+      <div className="">
         <input
           type="text"
           placeholder="Ask With Your AI Friend"
